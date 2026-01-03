@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Udipi’s Upahar – Moosapet</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="bg-glow"></div>
+<!-- WELCOME SCREEN -->
+<div id="welcome" class="screen active">
+  <img src="assets/logo.png" class="main-logo">
+  <button class="menu-btn" onclick="openMenu()">MENU</button>
+  <div class="bottom-quote">
+  Scan • Choose • Enjoy
+</div>
+<a class="review-btn"
+   href="https://www.google.com/search?sca_esv=16f09f52f58857e4&sxsrf=AE3TifOKNKhJdQmNxW6ej5hX5ez3dWOs2w:1767469021686&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E5DALY5yvUzEvnuy9u_0Ef7hm7Fg8lTQvgdoRnExnVfIyPRmYUV_G275HB48VrTvBQJs_-gUIyB4oX7WT06QniVmnNxzp0aDnhtvaEwSLqYlx-oqCg%3D%3D&q=Udipi%E2%80%99s+Upahar+Reviews&sa=X&ved=2ahUKEwjoucGZj_CRAxUCcGwGHU8NEx4Q0bkNegQIPhAD&biw=1536&bih=730&dpr=1.25"
+   target="_blank">
+   ⭐ Rate Us on Google
+</a>
+
+
+</div>
+
+
+
+<!-- CATEGORY SCREEN -->
+<div id="categories" class="screen">
+  <div class="top-bar">
+    <button class="nav-btn" onclick="backToHome()">🏠 Home</button>
+  </div>
+  <div class="grid" id="categoryGrid"></div>
+</div>
+
+
+
+
+<!-- ITEMS SCREEN (ONLY ONE) -->
+<div id="items" class="screen">
+  <div class="top-bar">
+    <button class="nav-btn" onclick="backToCategories()">← Back</button>
+    <button class="nav-btn" onclick="backToHome()">🏠 Home</button>
+  </div>
+  <h2 id="sectionTitle"></h2>
+  <ul id="itemList"></ul>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
