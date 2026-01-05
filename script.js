@@ -38,12 +38,12 @@ const categories = [
 const menuData = {
 
   tiffins: [
-    ["Idly (2 pcs)", 55],
-    ["Sambar Idly (2 pcs)", 60],
-    ["Idly Wada (1+1)", 70],
-    ["Idly Wada (2+1)", 85],
-    ["Ghee Idly (2 pcs)", 75],
-    ["Ghee Karam Idly (2 pcs)", 85],
+    ["Idly (2 pcs)", 60],
+    ["Sambar Idly (2 pcs)", 70],
+    ["Idly Wada (1+1)", 80],
+    ["Idly Wada (2+1)", 90],
+    ["Ghee Idly (2 pcs)", 80],
+    ["Ghee Karam Idly (2 pcs)", 90],
     ["Udipi Special Sponge Idly (3 pcs)", 75],
     ["Wada (2 pcs)", 80],
     ["Sambar Wada (1 pc)", 45],
@@ -51,12 +51,12 @@ const menuData = {
     ["Dahi Wada (1 pc)", 75],
     ["Upma / Tomato Bath (Morning)", 60],
     ["Chow Chow Bath (Morning)", 80],
-    ["Rice Pongal (Morning)", 80],
+    ["Rice Pongal (Morning)", 90],
     ["Bisi Bele Bath (Morning)", 80],
-    ["Rava Kesari Bath (Sweet)", 80],
-    ["Mysore Bhaji (5 pcs)", 60],
-    ["Poori Aloo Curry (3 pcs)", 90],
-    ["Poori Veg Kurma (3 pcs)", 90],
+    ["Rava Kesari Bath (Sweet)", 90],
+    ["Mysore Bhaji (5 pcs)", 65],
+    ["Poori Aloo Curry (3 pcs)", 100],
+    ["Poori Veg Kurma (3 pcs)", 100],
     ["Upma + 1 Wada Combo", 95],
     ["Rice Pongal + 1 Wada Combo", 125],
     ["Bisi Bele Bath + 1 Wada Combo", 125]
@@ -64,30 +64,30 @@ const menuData = {
 
   dosa: [
     ["Plain Dosa", 70],
-    ["Masala Dosa", 85],
-    ["Ghee Roast Masala Dosa", 115],
-    ["Butter Masala Dosa", 115],
-    ["Mysore Masala Dosa", 95],
-    ["Schezwan Masala Dosa", 95],
-    ["Karampodi Masala Dosa", 85],
-    ["Onion Dosa", 90],
-    ["Onion Masala Dosa", 95],
-    ["Upma Dosa", 95],
-    ["Special Masala Dosa", 95],
-    ["Steam Dosa", 95],
+    ["Masala Dosa", 90],
+    ["Ghee Roast Masala Dosa", 125],
+    ["Butter Masala Dosa", 125],
+    ["Mysore Masala Dosa", 105],
+    ["Schezwan Masala Dosa", 100],
+    ["Karampodi Masala Dosa", 100],
+    ["Onion Dosa", 95],
+    ["Onion Masala Dosa", 110],
+    ["Upma Dosa", 105],
+    ["Special Masala Dosa", 110],
+    ["Steam Dosa", 105],
     ["Udipi Special Sponge Dosa", 95],
     ["Rava Dosa", 100],
-    ["Onion Rava Dosa", 100],
-    ["Set Dosa", 95],
-    ["Onion Set Dosa", 100],
-    ["Onion Uttapam", 95],
+    ["Onion Rava Dosa", 110],
+    ["Set Dosa", 110],
+    ["Onion Set Dosa", 120],
+    ["Onion Uttapam", 100],
     ["Tomato Onion Uttapam", 100],
-    ["Onion Pesarattu", 90],
-    ["Upma Pesarattu", 95],
-    ["Plain Pesarattu", 80],
+    ["Onion Pesarattu", 100],
+    ["Upma Pesarattu", 110],
+    ["Plain Pesarattu", 90],
     ["Rava Masala Dosa", 100],
     ["Onion Rava Masala Dosa", 120],
-    ["Devangere Benne Dosa", 90],
+    ["Devangere Benne Dosa", 100],
     ["Chinese Dosa", 130],
     ["Spring Roll Dosa", 130],
     ["Mushroom Dosa", 140],
@@ -96,9 +96,9 @@ const menuData = {
   ],
 
   riceitems: [
-    ["Curd Rice", 75],
-    ["Lemon Rice", 75],
-    ["Tomato Rice", 75],
+    ["Curd Rice", 80],
+    ["Lemon Rice", 85],
+    ["Tomato Rice", 85],
     ["Veg Biryani", 140]
   ],
 
@@ -109,22 +109,22 @@ const menuData = {
 
   roticombos: [
     ["Chole Bhature", 180],
-    ["3 Chapathis + Curry + Chutney", 90],
+    ["3 Chapathis + Curry + Chutney", 100],
     ["2 Parathas + Curry + Chutney", 100],
-    ["Aloo Paratha", 130],
-    ["Paneer Paratha", 140]
+    ["Aloo Paratha", 150],
+    ["Paneer Paratha", 150]
   ],
 
   soups: [
-    ["Tomato Soup", 110],
-    ["Sweet Corn Soup", 110],
-    ["Lemon Coriander Soup", 110],
-    ["Manchow Soup", 110],
-    ["Hot n Sour Soup", 110]
+    ["Tomato Soup", 120],
+    ["Sweet Corn Soup", 120],
+    ["Lemon Coriander Soup", 120],
+    ["Manchow Soup", 120],
+    ["Hot n Sour Soup", 120]
   ],
 
   indianbreads: [
-    ["Phulka", 20],
+    ["Phulka", 30],
     ["Lachha Paratha", 30],
     ["Chapathi", 25]
   ],
@@ -135,14 +135,17 @@ const menuData = {
   ],
 
   chinesestarter: [
-    ["Veg Manchurian", 190],
-    ["Gobi Manchurian", 190],
-    ["Honey Chilly Potato", 210],
-    ["Crispy Corn Chilly Pepper", 210],
+    ["Veg Manchurian", 200],
+    ["Gobi Manchurian", 200],
+    ["Honey Chilly Potato", 250],
+    ["Crispy Corn Chilly Pepper", 250],
     ["Chilly Paneer", 230],
-    ["Paneer Manchurian", 230],
-    ["Baby Corn Manchurian", 210],
-    ["Mushroom Manchurian", 220]
+    ["Paneer Manchurian", 250],
+    ["Baby Corn Manchurian", 250],
+    ["Gobi 65", 230],
+    ["Mushroom Manchurian", 250],
+    ["Panner 65", 250],
+    ["Mushroom 65", 240]
   ],
 
   tandooristarters: [
@@ -155,15 +158,15 @@ const menuData = {
   ],
 
   maincourse: [
-    ["Aloo Gobi (Tawa)", 160],
-    ["Veg Keema Masala", 180],
-    ["Veg Chatpata", 190],
-    ["Kadai Veg", 190],
-    ["Mutter Paneer", 200],
-    ["Paneer Butter Masala", 210],
-    ["Mushroom Butter Masala", 210],
-    ["Paneer Chatpata", 210],
-    ["Kadai Paneer", 220],
+    ["Aloo Gobi (Tawa)", 200],
+    ["Veg Keema Masala", 200],
+    ["Veg Chatpata", 200],
+    ["Kadai Veg", 200],
+    ["Mutter Paneer", 230],
+    ["Paneer Butter Masala", 230],
+    ["Mushroom Butter Masala", 230],
+    ["Paneer Chatpata", 230],
+    ["Kadai Paneer", 250],
     ["Shahi Paneer", 280]
   ],
 
@@ -188,31 +191,35 @@ const menuData = {
   ],
 
   chineserice: [
-    ["Veg Fried Rice", 180],
-    ["Veg Soft Noodles", 180],
-    ["Chilly Garlic Noodles", 190],
-    ["Schezwan Fried Rice / Noodles", 190],
-    ["Paneer/Mushroom/Babycorn Fried Rice", 210],
-    ["Paneer/Mushroom/Babycorn Noodles", 210],
+    ["Veg Fried Rice", 200],
+    ["Veg Soft Noodles", 200],
+    ["Chilly Garlic Noodles", 200],
+    ["Schezwan Fried Rice / Noodles", 200],
+    ["Paneer Fried Rice", 230],
+    ["Paneer Noodles", 220],
+    ["Mushroom Noodles", 220],
+    ["Mushroom Fried Rice", 220],
+    ["Babycorn Noodles", 210],
+    ["Babycorn Fried Rice", 230],    
     ["Chinese Combo", 190],
     ["Triple Fried Rice", 200]
   ],
 
   chawal: [
-    ["Veg Pulao", 170],
+    ["Veg Pulao", 180],
     ["North Indian Veg Biryani", 180],
-    ["Hyderabadi Veg Biryani (Spicy)", 190],
+    ["Hyderabadi Veg Biryani (Spicy)", 210],
     ["Paneer Biryani", 210],
     ["Mushroom Biryani", 210],
     ["Babycorn Biryani", 210],
-    ["Kaju Pulao", 200],
-    ["Paneer/Mushroom/Babycorn Biryani", 200]
+    ["Kaju Pulao", 230],
+    ["Paneer/Mushroom/Babycorn Biryani", 220]
   ],
 
   daldelicacies: [
-    ["Dal Fry", 150],
-    ["Dal Tadka", 160],
-    ["Jeera Dal", 170]
+    ["Dal Fry", 170],
+    ["Dal Tadka", 170],
+    ["Jeera Dal", 160]
   ],
 
   beverages: [
@@ -281,3 +288,4 @@ function showItems(id,title){
     ul.innerHTML+=`<li><span>${i[0]}</span><b>₹${i[1]}</b></li>`;
   });
 }
+
